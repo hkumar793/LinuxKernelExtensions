@@ -1,0 +1,22 @@
+Observation:
+
+Stride: 2 MB Pages: 2048 pages Physical Memory Size: 7068 KiB
+Stride: 4 MB Pages: 2048 pages Physical Memory Size: 2920 KiB
+Stride: 8 MB Pages: 2048 pages Physical Memory Size: 876 KiB
+
+Stride: 2 MB Pages: 8192 pages Physical Memory Size: 31612 KiB
+Stride: 4 MB Pages: 8192 pages Physical Memory Size: 15188 KiB
+Stride: 8 MB Pages: 8192 pages Physical Memory Size: 7064 KiB
+
+Stride: 2 MB Pages: 16384 pages Physical Memory Size: 64400 KiB
+Stride: 4 MB Pages: 16384 pages Physical Memory Size: 31592 KiB
+Stride: 8 MB Pages: 16384 pages Physical Memory Size: 15208 KiB
+
+Notes:
+
+1. A larger stride means that fewer memory locations are accessed, leading to lower physical memory usage, as each access skips over a larger section of the memory.
+
+2. As the number of pages increases, the physical memory size increases as well, regardless of the stride value.
+
+3. As the stride increases, fewer physical pages are mapped, resulting in lower memory usage.
+
